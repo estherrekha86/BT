@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Test Report"  parallel="tests" verbose="1"> <!-- data-provider-thread-count="5" -->
+  
+  <!-- Suite file contains TestRunner location and Testng listner location -->
+  
+   <!-- Listners implemented in below location -->
+  <listeners>
+  		<listener class-name="com.testRunners.PropertyInjectorListener"></listener>
+  </listeners>
+  
+<!-- Test Started... -->
+  <!-- <test name="Automation Test Report">
+    <classes>
+      <class name="com.testRunners.BT_UkbOnlineRunnerTest"/>
+    </classes>
+  </test>  -->
+   
+  
+  
+</suite> <!-- Suite -->
